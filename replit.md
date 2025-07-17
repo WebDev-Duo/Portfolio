@@ -10,11 +10,13 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- **Real Project Integration (Latest)**: Updated projects section with actual user projects:
+- **Button and Names Update (Latest)**: Changed "Get In Touch" button to attractive green gradient and updated developer names to Faisal Khan and Harsha Surwase
+- **Text Visibility Fix**: Fixed silver/light gray text throughout the site by changing to darker gray colors for better readability
+- **Real Project Integration**: Updated projects section with actual user projects:
   - ShopNest: E-commerce application with demo video
   - Real-Time Chat App: Live chat with WebSockets
   - Process Scheduler: CPU scheduling algorithms visualization
-- **About Section Update**: Updated developer information to reflect actual user (Faisal Ahmed) and development partner
+- **About Section Update**: Updated developer information to reflect actual users (Faisal Khan and Harsha Surwase)
 - **Contact Section Enhancement**: Improved visibility with better background contrast and gradient text
 - **Enhanced Form Validation**: Added comprehensive validation to contact form with specific error messages for name (2-50 chars), email (valid format), subject (5-100 chars), and message (10-1000 chars)
 - **Visual Enhancements**: Added stunning visual effects including:

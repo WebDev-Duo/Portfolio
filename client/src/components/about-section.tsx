@@ -5,7 +5,7 @@ import { Linkedin, Github, Mail } from "lucide-react";
 
 const developers = [
   {
-    name: "Faisal Ahmed",
+    name: "Faisal Khan",
     role: "Full Stack Developer & Software Engineer",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
     description: "Faisal specializes in full-stack development with expertise in React, Node.js, and modern web technologies. He's passionate about creating robust, scalable applications that deliver exceptional user experiences. His portfolio includes e-commerce platforms, real-time chat applications, and system algorithms.",
@@ -16,14 +16,14 @@ const developers = [
     },
   },
   {
-    name: "Development Partner",
+    name: "Harsha Surwase",
     role: "Frontend Specialist & UI/UX Designer",
     image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
-    description: "Our development partner brings expertise in modern frontend technologies and user experience design. Together, we create beautiful, intuitive interfaces that engage users and drive business results. The team focuses on responsive design, performance optimization, and cutting-edge web technologies.",
+    description: "Harsha brings expertise in modern frontend technologies and user experience design. Together, we create beautiful, intuitive interfaces that engage users and drive business results. He focuses on responsive design, performance optimization, and cutting-edge web technologies to deliver exceptional user experiences.",
     social: {
       linkedin: "#",
       github: "#",
-      email: "partner@webdevduo.com",
+      email: "harsha@webdevduo.com",
     },
   },
 ];
