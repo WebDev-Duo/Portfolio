@@ -43,7 +43,7 @@ export default function AboutSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">About Us</h2>
-          <p className="text-xl text-neutral max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Meet the passionate developers behind WebDev Duo
           </p>
         </motion.div>
@@ -69,7 +69,7 @@ export default function AboutSection() {
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-2">{developer.name}</h3>
               <p className="text-primary font-semibold mb-4">{developer.role}</p>
-              <p className="text-neutral leading-relaxed mb-6">{developer.description}</p>
+              <p className="text-gray-600 leading-relaxed mb-6">{developer.description}</p>
               <div className="flex justify-center space-x-4">
                 <a
                   href={developer.social.linkedin}

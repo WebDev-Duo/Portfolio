@@ -65,7 +65,7 @@ export default function ServicesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-          <p className="text-xl text-neutral max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We offer comprehensive web development solutions to bring your ideas to life
           </p>
         </motion.div>
@@ -89,7 +89,7 @@ export default function ServicesSection() {
                     <service.icon className="w-8 h-8" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4 gradient-text">{service.title}</h3>
-                  <p className="text-neutral leading-relaxed">{service.description}</p>
+                  <p className="text-gray-600 leading-relaxed">{service.description}</p>
                 </CardContent>
               </Card>
             </motion.div>

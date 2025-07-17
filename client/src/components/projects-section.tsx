@@ -50,7 +50,7 @@ export default function ProjectsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Projects</h2>
-          <p className="text-xl text-neutral max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Take a look at some of our recent work and see how we bring ideas to life
           </p>
         </motion.div>
@@ -79,7 +79,7 @@ export default function ProjectsSection() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 gradient-text">{project.title}</h3>
-                  <p className="text-neutral mb-4">{project.description}</p>
+                  <p className="text-gray-600 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech) => (
                       <Badge key={tech} variant="secondary" className="text-xs bg-primary/10 text-primary hover:bg-primary/20 transition-colors">

@@ -29,7 +29,7 @@ export default function SkillsSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Skills</h2>
-          <p className="text-xl text-neutral max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We specialize in modern web technologies to create fast, scalable, and beautiful applications
           </p>
         </motion.div>

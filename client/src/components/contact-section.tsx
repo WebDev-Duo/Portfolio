@@ -158,21 +158,21 @@ export default function ContactSection() {
                       <Mail className="w-6 h-6 text-primary" />
                     </div>
                     <h4 className="font-semibold text-gray-900 mb-2">Email</h4>
-                    <p className="text-neutral">hello@webdevduo.com</p>
+                    <p className="text-gray-700 font-medium">hello@webdevduo.com</p>
                   </div>
                   <div>
                     <div className="bg-accent/10 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Clock className="w-6 h-6 text-accent" />
                     </div>
                     <h4 className="font-semibold text-gray-900 mb-2">Response Time</h4>
-                    <p className="text-neutral">Within 24 hours</p>
+                    <p className="text-gray-700 font-medium">Within 24 hours</p>
                   </div>
                   <div>
                     <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Handshake className="w-6 h-6 text-green-600" />
                     </div>
                     <h4 className="font-semibold text-gray-900 mb-2">Free Consultation</h4>
-                    <p className="text-neutral">30-minute discovery call</p>
+                    <p className="text-gray-700 font-medium">30-minute discovery call</p>
                   </div>
                 </div>
               </div>
