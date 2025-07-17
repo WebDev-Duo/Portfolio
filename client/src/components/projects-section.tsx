@@ -65,18 +65,21 @@ export default function ProjectsSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.4, ease: "easeOut", delay: 0.1 * index }}
             >
-              <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover"
-                />
+              <Card className="overflow-hidden card-hover bg-white/90 backdrop-blur-sm border-2 border-transparent hover:border-primary/20">
+                <div className="relative overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 gradient-text">{project.title}</h3>
                   <p className="text-neutral mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech) => (
-                      <Badge key={tech} variant="secondary" className="text-xs">
+                      <Badge key={tech} variant="secondary" className="text-xs bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
                         {tech}
                       </Badge>
                     ))}
@@ -84,14 +87,14 @@ export default function ProjectsSection() {
                   <div className="flex justify-between">
                     <a
                       href={project.githubUrl}
-                      className="flex items-center text-primary hover:text-accent transition-colors duration-300 font-medium"
+                      className="flex items-center text-primary hover:text-accent hover:scale-105 transition-all duration-300 font-medium"
                     >
                       <Github className="w-4 h-4 mr-2" />
                       GitHub
                     </a>
                     <a
                       href={project.liveUrl}
-                      className="flex items-center text-primary hover:text-accent transition-colors duration-300 font-medium"
+                      className="flex items-center text-primary hover:text-accent hover:scale-105 transition-all duration-300 font-medium"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo

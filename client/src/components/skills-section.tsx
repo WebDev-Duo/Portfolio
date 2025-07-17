@@ -47,9 +47,9 @@ export default function SkillsSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.4, ease: "easeOut", delay: 0.1 * index }}
             >
-              <Card className="hover:shadow-lg transition-shadow duration-300">
+              <Card className="card-hover neon-border bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-6 text-center">
-                  <div className={`text-4xl mb-4 ${skill.color}`}>
+                  <div className={`text-4xl mb-4 ${skill.color} floating-animation`} style={{ animationDelay: `${index * 0.5}s` }}>
                     {skill.icon}
                   </div>
                   <h3 className="font-semibold text-gray-900">{skill.name}</h3>

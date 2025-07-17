@@ -83,12 +83,12 @@ export default function ServicesSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.4, ease: "easeOut", delay: 0.1 * index }}
             >
-              <Card className="hover:shadow-xl transition-shadow duration-300 h-full">
+              <Card className="card-hover h-full bg-white/90 backdrop-blur-sm border-2 border-transparent hover:border-primary/20">
                 <CardContent className="p-8 text-center">
-                  <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 ${service.color}`}>
+                  <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 ${service.color} floating-animation`} style={{ animationDelay: `${index * 0.3}s` }}>
                     <service.icon className="w-8 h-8" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">{service.title}</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4 gradient-text">{service.title}</h3>
                   <p className="text-neutral leading-relaxed">{service.description}</p>
                 </CardContent>
               </Card>

@@ -75,7 +75,7 @@ export default function ContactSection() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
         >
-          <Card className="shadow-lg">
+          <Card className="shadow-lg bg-white/90 backdrop-blur-sm neon-border">
             <CardContent className="p-8">
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
@@ -142,7 +142,7 @@ export default function ContactSection() {
                   <Button
                     type="submit"
                     disabled={contactMutation.isPending}
-                    className="bg-primary hover:bg-accent transition-colors duration-300 text-white font-semibold py-3 px-8 rounded-lg"
+                    className="bg-primary hover:bg-accent hover:scale-105 transition-all duration-300 text-white font-semibold py-3 px-8 rounded-lg pulse-glow"
                   >
                     <Send className="w-4 h-4 mr-2" />
                     {contactMutation.isPending ? "Sending..." : "Send Message"}

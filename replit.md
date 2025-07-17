@@ -8,6 +8,19 @@ This is a modern, responsive portfolio website built for a web development duo c
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+- **Enhanced Form Validation (Latest)**: Added comprehensive validation to contact form with specific error messages for name (2-50 chars), email (valid format), subject (5-100 chars), and message (10-1000 chars)
+- **Visual Enhancements**: Added stunning visual effects including:
+  - Glass effect navigation with gradient text logo
+  - Floating animations on hero section and skill cards
+  - Hover effects with scale transforms and glowing buttons
+  - Neon border effects on cards and form elements
+  - Image zoom effects on project cards
+  - Pulse glow animations on call-to-action buttons
+- **Interactive Navigation**: Made "WebDev Duo" logo clickable to scroll to home section
+- **Enhanced Styling**: Added CSS animations including shine effects, floating elements, and gradient text effects
+
 ## System Architecture
 
 The application follows a monorepo structure with clear separation between client, server, and shared code:
