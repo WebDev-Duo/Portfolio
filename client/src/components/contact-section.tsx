@@ -55,7 +55,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-light">
+    <section id="contact" className="py-20 bg-gray-50 border-t border-gray-200">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <motion.div
           ref={ref}
@@ -64,8 +64,8 @@ export default function ContactSection() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
-          <p className="text-xl text-neutral max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 gradient-text drop-shadow-sm">Get In Touch</h2>
+          <p className="text-xl text-gray-700 max-w-2xl mx-auto">
             Ready to start your project? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
         </motion.div>

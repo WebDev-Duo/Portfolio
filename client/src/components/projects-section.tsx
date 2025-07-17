@@ -7,28 +7,31 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A modern online store with shopping cart, payment integration, and admin dashboard built with React and Node.js.",
+    title: "ShopNest",
+    description: "An e-commerce web application offering a seamless and user-friendly shopping experience with modern UI and robust functionality.",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    technologies: ["React", "Node.js", "MongoDB"],
-    githubUrl: "#",
-    liveUrl: "#",
+    technologies: ["React", "Node.js", "MongoDB", "Express"],
+    githubUrl: "https://github.com/Faisal786111/ShopNest",
+    liveUrl: "https://drive.google.com/file/d/1yd2pFTw9dxIOtcF-18kvxobYhTgKrJx2/view?usp=sharing",
+    demoType: "video"
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management tool with real-time updates, team collaboration, and progress tracking features.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-    githubUrl: "#",
-    liveUrl: "#",
+    title: "Real-Time Chat App",
+    description: "A live chat application built with WebSockets for real-time messaging, enabling instant communication between users.",
+    image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    technologies: ["WebSockets", "Node.js", "Express", "Socket.io"],
+    githubUrl: "https://github.com/Faisal786111/Chat-App",
+    liveUrl: "https://chat-app-1yjb.onrender.com/",
+    demoType: "live"
   },
   {
-    title: "Restaurant Website",
-    description: "A beautiful restaurant website with online menu, reservation system, and order management for local business.",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    technologies: ["React", "Express", "PostgreSQL"],
-    githubUrl: "#",
-    liveUrl: "#",
+    title: "Process Scheduler",
+    description: "A simulation of CPU scheduling algorithms including FCFS, SJF, Round Robin, Priority, and SRTF with interactive visualizations.",
+    image: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    technologies: ["JavaScript", "HTML5", "CSS3", "Algorithms"],
+    githubUrl: "https://github.com/Faisal786111/ProcessScheduler",
+    liveUrl: "https://processscheduler.onrender.com/",
+    demoType: "live"
   },
 ];
 
@@ -87,6 +90,8 @@ export default function ProjectsSection() {
                   <div className="flex justify-between">
                     <a
                       href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center text-primary hover:text-accent hover:scale-105 transition-all duration-300 font-medium"
                     >
                       <Github className="w-4 h-4 mr-2" />
@@ -94,10 +99,12 @@ export default function ProjectsSection() {
                     </a>
                     <a
                       href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center text-primary hover:text-accent hover:scale-105 transition-all duration-300 font-medium"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      Live Demo
+                      {project.demoType === "video" ? "Demo Video" : "Live Demo"}
                     </a>
                   </div>
                 </CardContent>

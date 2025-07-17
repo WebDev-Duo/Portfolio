@@ -5,25 +5,25 @@ import { Linkedin, Github, Mail } from "lucide-react";
 
 const developers = [
   {
-    name: "Alex Johnson",
-    role: "Lead Developer & UI/UX Designer",
+    name: "Faisal Ahmed",
+    role: "Full Stack Developer & Software Engineer",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
-    description: "Alex specializes in frontend development and user experience design. With 5+ years of experience, he's passionate about creating beautiful, intuitive interfaces that users love. He leads our design process and ensures every project meets the highest standards of usability and aesthetics.",
+    description: "Faisal specializes in full-stack development with expertise in React, Node.js, and modern web technologies. He's passionate about creating robust, scalable applications that deliver exceptional user experiences. His portfolio includes e-commerce platforms, real-time chat applications, and system algorithms.",
     social: {
       linkedin: "#",
-      github: "#",
-      email: "alex@webdevduo.com",
+      github: "https://github.com/Faisal786111",
+      email: "faisal@webdevduo.com",
     },
   },
   {
-    name: "Sarah Chen",
-    role: "Backend Developer & DevOps Specialist",
+    name: "Development Partner",
+    role: "Frontend Specialist & UI/UX Designer",
     image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400",
-    description: "Sarah is our backend wizard who ensures everything runs smoothly behind the scenes. With expertise in server architecture, databases, and cloud deployment, she builds robust, scalable solutions that grow with your business. Her attention to performance and security keeps your applications running perfectly.",
+    description: "Our development partner brings expertise in modern frontend technologies and user experience design. Together, we create beautiful, intuitive interfaces that engage users and drive business results. The team focuses on responsive design, performance optimization, and cutting-edge web technologies.",
     social: {
       linkedin: "#",
       github: "#",
-      email: "sarah@webdevduo.com",
+      email: "partner@webdevduo.com",
     },
   },
 ];

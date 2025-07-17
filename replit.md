@@ -10,7 +10,13 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- **Enhanced Form Validation (Latest)**: Added comprehensive validation to contact form with specific error messages for name (2-50 chars), email (valid format), subject (5-100 chars), and message (10-1000 chars)
+- **Real Project Integration (Latest)**: Updated projects section with actual user projects:
+  - ShopNest: E-commerce application with demo video
+  - Real-Time Chat App: Live chat with WebSockets
+  - Process Scheduler: CPU scheduling algorithms visualization
+- **About Section Update**: Updated developer information to reflect actual user (Faisal Ahmed) and development partner
+- **Contact Section Enhancement**: Improved visibility with better background contrast and gradient text
+- **Enhanced Form Validation**: Added comprehensive validation to contact form with specific error messages for name (2-50 chars), email (valid format), subject (5-100 chars), and message (10-1000 chars)
 - **Visual Enhancements**: Added stunning visual effects including:
   - Glass effect navigation with gradient text logo
   - Floating animations on hero section and skill cards
